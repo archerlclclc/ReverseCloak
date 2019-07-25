@@ -1,0 +1,256 @@
+*{margin:0; padding:0;}
+
+body {
+    font-family: Verdana, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+    font-size: 12px; 
+    background: #dfdfdf url(images/bg.jpg) repeat-y top center;
+    color: #333; 
+    margin:0; 
+    padding:0;
+    line-height: 135%;
+}
+
+a { color: #5C6783; text-decoration: none; }
+a:hover { text-decoration: none; color : #880000; }
+
+img{ border: none; padding: 6px; } 
+img a{border:none;} 
+
+ul { list-style-type: none; }
+
+#page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header { 
+    background: url(images/header.jpg) no-repeat;
+    height: 110px;
+}
+#header h1 {
+    font-size: 27px;
+    font-weight: 100;
+    padding: 20px 0 0 30px;
+}
+#header h1 a {
+    color: #fff;
+}
+#header h1 a:hover {
+    color: #BFD5FF;
+}
+#header h2 {
+    color: #eee;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 7px 0 0 30px;
+}
+
+#index_image {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 200px;
+    width: 200px;
+}
+
+#threat {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 200px;
+    width: 200px;
+}
+
+#location_privacy {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 100px;
+    width: 200px;
+}
+
+#location_anonymization {
+    float: left; 
+    padding: 0 10px 10px 0;
+    height: 150px;
+    width: 300px;
+}
+
+#existing {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 150px;
+    width: 300px;
+}
+
+#forward_collision {
+    float: left; 
+    padding: 0 10px 10px 0;
+    height: 150px;
+    width: 220px;
+}
+
+#backward_collision {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 150px;
+    width: 220px;
+}
+
+#varying_sen1 {
+    float: left; 
+    padding: 0 10px 10px 0;
+    height: 178px;
+    width: 220px;
+}
+
+#varying_sen2 {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 178px;
+    width: 220px;
+}
+
+#algorithm {
+    float: left; 
+    padding: 0 10px 10px 0;
+    height: 450px;
+    width: 450px;
+}
+
+#attack {
+    float: left; 
+    padding: 0 30px 20px 0;
+    height: 388px;
+    width: 470px;
+}
+
+#algorithm1 {
+    float: left; 
+    padding: 0 10px 20px 0;
+    height: 100px;
+    width: 500px;
+}
+
+#algorithm2 {
+    float: left; 
+    padding: 0 10px 10px 0;
+    height: 100px;
+    width: 450px;
+}
+
+#motivation1 {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 250px;
+    width: 450px;
+}
+
+#motivation2 {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 250px;
+    width: 450px;
+}
+
+#group {
+    float: right; 
+    padding: 0 10px 30px 0;
+    height: 154px;
+    width: 450px;
+}
+
+#mechanism {
+    float: right; 
+    padding: 0 10px 30px 0;
+    height: 154px;
+    width: 450px;
+}
+
+#network {
+    float: right; 
+    padding: 0 10px 10px 0;
+    height: 250px;
+    width: 450px;
+}
+
+#framework {
+    float: right; 
+    padding: 0 20px 0px 0;
+    height: 250px;
+    width: 450px;
+}
+
+
+
+#wrapper {
+    padding: 0 20px 0 0;
+
+}
+
+#content {
+    float: right;
+    width: 490px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#sidebar {
+    float: left;
+    width: 280px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    margin: 0 auto 10px auto;
+    background: #fff url(images/footer.jpg) no-repeat;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    color #fff;	
+}
+#footer p { color: #fff; }
+#footer a { color: #fff; text-decoration: none; }
+#footer a:hover { text-decoration: underline; }
+
+#content h2 {
+    font-weight: 100;
+    font-size: 23px;
+    margin: 0 0 4px; padding: 0 0 3px; 
+    color: #999;
+}
+
+#content ul {
+    color: #555555;
+    padding: 10px 30px;
+}
+#content ul li {
+    list-style-type: square;
+}
+
+#sidebar img { padding: 0; margin: 0; }
+#sidebar ul {
+    list-style-type: none; 
+}
+
+#sidebar h2 {
+    background: #FBD499 url(images/sidebarh2.jpg) no-repeat;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 20px 0 0 0; padding: 0 0 0 20px; 
+    color: #fff;
+}
+
+#sidebar ul {
+    padding: 10px 0 5px 20px;
+}
+
+#sidebar ul li {
+    background: url(images/bullet.jpg) no-repeat center left;
+    padding: 2px 0 2px 23px;
+}
+#sidebar ul li a { font-size: 12px; font-weight: 600; }
+
+
